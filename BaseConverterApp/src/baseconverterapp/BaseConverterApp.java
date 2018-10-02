@@ -16,6 +16,17 @@ public class BaseConverterApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        TheConverter c = new TheConverter();
+       
+//        
+        switch(args[0]){
+            case "convert": System.out.println(c.convertToNBase(args[1], args[2])); break;
+            case "add": c.add(args[1], args[2]); break;
+            case "multiply": System.out.println(c.multiply(args[1], args[2]));; break;
+            case "subtract": c.subtract(args[1], args[2]); break;
+            case "divide": c.divide(args[1], args[2]); break;
+            default: System.out.println("There is an error");
+        }
     }
     
 }

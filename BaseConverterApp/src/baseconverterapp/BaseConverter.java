@@ -12,7 +12,7 @@ package baseconverterapp;
 public interface BaseConverter {
     
     /**
-     * convertToNBase
+     * CONVERTTONBASE
      * Inputs: STR0 and STR1; string in the format number_base (or _base for str1)
      * Outputs: A string in the format number_base, str0 converted to the base specified in str1
      */
